@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c121f5569d.js" crossorigin="anonymous"></script>
+    <script src="src/navbar-logic.js"></script>
+    <title>KPMG Indonesia - KPMG Indonesia</title>
+
+</head>
+<body class="font-openSans">
+    <nav class="fixed w-full bg-white shadow-md shadow-gray-700/50 pb-1 z-20">
+        
+        <section class="flex flex-row max-w-[95.4%] mx-auto justify-between items-end h-14">
+
+            <a class="hidden laptop:flex self-center text-3xl text-[#00338D]" onclick="showMenus()"><i class="fa-solid fa-bars"></i></a>
+            <a class="w-[6.75rem] self-start pt-[6px] laptop:mx-auto" href="#"><img src="src/img/kpmg-logo.jpeg" alt="kpmg logo"></a>
+            <ul class="flex flex-row gap-10 font-openSans text-[#00338D] text-xl laptop:hidden">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="freepage.html">Flocking Sim</a></li>
+                <li><a href="posts.html">Additional Page</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+            
+            <div class="flex flex-row gap-6 mb-2.5 mr-2.5 laptop:hidden">
+                <a href="#"><img class="w-5 h-5" src="src/img/searchLogo.png" alt="searchLogo"></a>
+                <a href="#"><img class="w-5 h-5" src="src/img/languangeLogo.png" alt="languangeLogo"></a>
+            </div>
+            
+        </section>
+    </nav>
+
+    <ul id="bar-menus" class="fixed w-full z-10 bg-white translate-y-[-100%] flex-col transition-all duration-500">
+        <li class="py-5 pl-2 text-xl border-b-[1px] border-solid border-[#333] hover:underline"><a href="index.html">Home</a></li>
+        <li class="py-5 pl-2 text-xl border-b-[1px] border-solid border-[#333] hover:underline"><a href="biodata.html">Biodata</a></li>
+        <li class="py-5 pl-2 text-xl border-b-[1px] border-solid border-[#333] hover:underline"><a href="contact_us.html">Contact Us</a></li>
+        <li class="py-5 pl-2 text-xl border-b-[1px] border-solid border-[#333] hover:underline"><a href="freepage.html">Flocking Sim</a></li>
+        <li class="py-5 pl-2 text-xl border-b-[1px] border-solid border-[#333] hover:underline"><a href="posts.html">Additional Page</a></li>
+
+    </ul>
+    
+    <header class="flex min-h-[500px]">
+        <div class="mt-[3.35rem] absolute w-full h-[500px] laptop:h-[400px] bg-cover bg-right bg-hero-bg mobile:bg-hero-bg-mobile">
+            <div class="flex text-white flex-col max-w-[1400px] mx-auto laptop:ml-5 mt-32  gap-[21.5px] mobile:hidden">
+                <h1 class="text-[45.5px] font-OpenSans-Condensed scale-y-[0.89] font-bold">KPMG 2024 CEO Outlook</h1>
+                <a class="text-[18px]">Top CEOs see through global turbulence by betting big on AI</a>
+                <a href="#" class="text-[1.125rem] font-semibold hover:underline max-w-fit">Learn more <span class="fa-solid fa-chevron-right"></span></a>
+            </div>
+        </div>
+        <div class="hidden bg-[#00338D] mt-[450px] mobile:flex flex-col w-full gap-5 text-white py-5 pl-2">
+            <h1 class="text-[45.5px] font-OpenSans-Condensed scale-y-[0.89] font-bold">KPMG 2024 CEO Outlook</h1>
+            <a class="text-[18px]">Top CEOs see through global turbulence by betting big on AI</a>
+            <a href="#" class="text-[1.125rem] font-semibold hover:underline max-w-fit">Learn more <span class="fa-solid fa-chevron-right"></span></a>
+        </div>
+        
+
+    </header>
+
+    <main class="laptop:-translate-y-[90px] mobile:-translate-y-0">
+
+
+        <section class="z-10 relative flex max-w-[1400px] laptop:max-w-[97%]  max-h-[480px] mobile:max-h-fit overflow-hidden mx-auto mb-[30px] mobile:flex-wrap gap-[20px] mobile:gap-9 p-[20px] mobile:max-w-full bg-white">
+
+                <a class="w-[32.3%] mobile:w-full mobile:max-h-[420px] group" href="#">
+                    <div class="flex overflow-hidden flex-col">
+                        <img class="transition duration-[0.5s] group-hover:scale-105" src="src/img/server-top.webp">
+                        <img class="-scale-[1] brightness-[85%] mobile:h-14" src="src/img/server-top.webp">
+                    </div>
+                    <div class="flex mx-auto min-h-[210px] max-w-[95%] pt-[7%] pr-[5%] pb-[12%] pl-[0.25%] -translate-y-[170%] laptop:-translate-y-[105%] flex-col bg-white text-['#444'] gap-[10px]">
+                        <h4 class="ml-[4%] text-[20px] font-semibold group-hover:underline">PSAK 117 post implementation series</h4>
+                        <p class="ml-[4%]">Key areas companies can focus on to echance end-to-end processes and achieve high impact, beneficial outcomes for the organization</p>
+                    </div>
+                </a>
+
+                <a class="w-[32.3%] mobile:w-full  mobile:max-h-[420px] group" href="#">
+                    <div class="flex overflow-hidden flex-col">
+                        <img class="transition duration-[0.5s] group-hover:scale-105" src="src/img/networks-top.webp">
+                        <img class="-scale-[1] brightness-[85%] mobile:h-14" src="src/img/networks-top.webp">
+                    </div>
+                    <div class="flex mx-auto min-h-[210px] max-w-[95%] pt-[7%] pr-[5%] pb-[12%] pl-[0.25%] -translate-y-[170%] laptop:-translate-y-[105%] flex-col bg-white text-['#444'] gap-[10px]">
+                        <h4 class="ml-[4%] text-[20px] font-semibold group-hover:underline">AI in financial reporting and audit: Navigating the new era</h4>
+                        <p class="ml-[4%]">Financial reporting leaders' AI expectations for their companies and external auditors.</p>
+                    </div>
+                </a>
+
+                <a class="w-[32.3%] mobile:w-full mobile:max-h-[420px] group" href="#">
+                    <div class="flex overflow-hidden flex-col">
+                        <img class="transition duration-[0.5s] group-hover:scale-105" src="src/img/kids-top.webp">
+                        <img class="-scale-[1] brightness-[85%] mobile:h-14" src="src/img/kids-top.webp">
+                    </div>
+                    
+                    <div class="flex mx-auto min-h-[210px] max-w-[95%] pt-[7%] pr-[5%] pb-[12%] pl-[0.25%] -translate-y-[170%] laptop:-translate-y-[105%] flex-col bg-white text-['#444'] gap-[10px]">
+                        <h4 class="ml-[4%] text-[20px] font-semibold group-hover:underline">KPMG: Our Impact Plan</h4>
+                        <p class="ml-[4%]">2024 update KPMG. Make the Difference</p>
+                    </div>
+                </a>  
+
+        </section>
+
+        <section class="flex flex-row my-[5px] mx-auto max-w-[1400px] justify-evenly flex-wrap">
+
+            <a  class="max-w-[23.2%] laptop:max-w-[45%] mobile:max-w-full overflow-hidden flex gap-[35px] flex-col text-[#313131] group" href="#">
+                <img class="w-full group-hover:scale-[1.03] max-h-[46%] object-cover transition-all duration-[0.4s]" src="src/img/ship.webp" alt="sailboat">
+                <div class="flex flex-col pl-[10px] gap-[10px] max-w-[320px]">
+                    <h4 class="group-hover:underline text-[1.25rem] font-semibold">Transperency report 2023</h4>
+                    <p>Quality is how we make a difference</p>
+                </div>
+            </a>
+            <a  class="max-w-[23.2%] laptop:max-w-[45%] mobile:max-w-full overflow-hidden flex gap-[35px] flex-col text-[#313131] group" href="#">
+                <img class="w-full group-hover:scale-[1.03] max-h-[46%] object-cover transition-all duration-[0.4s]" src="src/img/futureCar.jpeg" alt="futureCar">
+                <div class="flex flex-col pl-[10px] gap-[10px] max-w-[320px]">
+                    <h4 class="group-hover:underline text-[1.25rem] font-semibold">24th Annual Global Automotive Executive Survey</h4>
+                    <p>Insights from over 1000 automotive executives in 30 countries highlight the challanges and opportunities ahead</p>
+                </div>
+            </a>
+            <a  class="max-w-[23.2%] laptop:max-w-[45%] mobile:max-w-full overflow-hidden flex gap-[35px] flex-col text-[#313131] group" href="#">
+                <img class="w-full group-hover:scale-[1.03] max-h-[46%] object-cover transition-all duration-[0.4s]" src="src/img/skyscraperGlass.webp" alt="skyscraper">
+                <div class="flex flex-col pl-[10px] gap-[10px] max-w-[320px]">
+                    <h4 class="group-hover:underline text-[1.25rem] font-semibold">Banks - 2023 illustrative disclosures</h4>
+                    <p>Your essential guide to preparing financial statements for banks under IFRS® Accounting Standards</p>
+                </div>
+            </a>
+            <a class="max-w-[23.2%] laptop:max-w-[45%] mobile:max-w-full overflow-hidden flex gap-[10px] flex-col text-[#313131] group" href="#">
+                <img class="w-full group-hover:scale-[1.03] max-h-[46%] object-cover transition-all duration-[0.4s]" src="src/img/smilingWoman.jpeg" alt="smilingWoman">
+                <div class="flex flex-col pl-[10px] gap-[10px] max-w-[320px]">
+                    <p class="text-[#0a59a3] text-[0.83rem] font-semibold"><i class="fa-solid fa-tag"></i> IT MANAGEMENT</p>
+                    <h4 class="group-hover:underline text-[1.25rem] font-semibold">The future of IT</h4>
+                    <p>Discover the strategies to advance the IT function and prepare organizations to thrive in a cloud and AI enabled era</p>
+                </div>
+            </a>
+
+        </section>
+
+        <section class="py-[15px] flex flex-col items-center gap-5 bg-[#F0F0F0]">
+            <h2 class="text-[#063696] font-OpenSans-Condensed text-[2.6rem] scale-y-90">Industries</h2>
+            <div class="text-[#292929] flex max-w-[1350px] flex-wrap max-h-[1500px] mx-auto gap-[15px]">
+
+                <a href="#" class="flex gap-[25px] max-w-[440px] mx-auto flex-col text-[#313131] p-[10px] hover:rounded-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5]">
+                    <img class="w-[50px] h-[55px] bg-icon1 bg-spirtes" src="src/img/transparent.svg" width="2" height="2"> 
+                    <h3 class="text-[1.38rem] font-semibold">Consumer Markets</h3>
+                    <p>Our experience allows us to provide services to a wide range of organizations.</p>
+                </a>
+
+                <a href="#" class="flex gap-[25px] max-w-[440px] mx-auto flex-col text-[#313131] p-[10px] hover:rounded-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5]">
+                    <img class="w-[50px] h-[55px] bg-icon2 bg-spirtes" src="src/img/transparent.svg" width="2" height="2">
+                    <h3 class="text-[1.38rem] font-semibold">Industrial Markets</h3>
+                    <p>We help companies understand the implications of business and technological risks.</p>
+                </a>
+
+                <a href="#" class="flex gap-[25px] max-w-[440px] mx-auto flex-col text-[#313131] p-[10px] hover:rounded-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5]">
+                    <img class="w-[50px] h-[55px] bg-icon3 bg-spirtes" src="src/img/transparent.svg" width="2" height="2">
+                    <h3 class="text-[1.38rem] font-semibold">Energy & Natural Recources</h3>
+                    <p>Shifting regulation, customer demands, and technologies are transforming the energy sector.</p>
+                </a>
+
+                <a href="#" class="flex gap-[25px] max-w-[440px] mx-auto flex-col text-[#313131] p-[10px] hover:rounded-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5]">
+                    <img class="w-[50px] h-[55px] bg-icon4 bg-spirtes" src="src/img/transparent.svg" width="2" height="2"> 
+                    <h3 class="text-[1.38rem] font-semibold">Financial Services</h3>
+                    <p>Financial services remains focus on regulation and cost reduction.</p>
+                </a>
+
+                <a href="#" class="flex gap-[25px] max-w-[440px] mx-auto flex-col text-[#313131] p-[10px] hover:rounded-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5]">
+                    <img class="w-[50px] h-[55px] bg-icon5 bg-spirtes" src="src/img/transparent.svg" width="2" height="2"> 
+                    <h3 class="text-[1.38rem] font-semibold">Telecom</h3>
+                    <p>Communications infrastructure is an important element of an effective economy.</p>
+                </a>
+
+                <a href="#"  class="flex gap-[25px] max-w-[440px] mx-auto flex-col text-[#313131] p-[10px] hover:rounded-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5]">
+                    <img class="w-[50px] h-[55px] bg-icon6 bg-spirtes" src="src/img/transparent.svg" width="2" height="2">
+                    <h3 class="text-[1.38rem] font-semibold">Infrastructure</h3>
+                    <p>Our Global Infrastructure practice knows what it takes to make the right strategic choices.</p>
+                </a>
+                
+            </div>
+            <a href="#" class="min-w-[240px] text-center text-[#063696] items-center text-[1.15rem] p-[10px] m-[15px] font-semibold border-solid border border-[#063696] transition-all duration-500 hover:text-white hover:bg-[#1E49E2] hover:underline">All Industries</a>
+        </section>
+        <section class="flex flex-col items-center gap-[14px] text-center text-[#292929]">
+            <h2 class="text-[#063696] font-OpenSans-Condensed text-[2.6rem] scale-y-90">Services</h2>
+            <div class="flex mx-auto max-w-[98%] justify-center gap-[2.5%] flex-wrap">
+
+                <a href="#" class="flex flex-col items-center max-w-[22%] laptop:max-w-[45%] mobile:max-w-full gap-5 text-[#313131] py-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5] hover:rounded-[5px]">
+                    <img class="rounded-full w-[240px] mb-[25px] mobile:w-[300px]" src="src/img/abstrakPaintStroke.webp" alt="abstrakPaintStroke">
+                    <h4 class="text-[1.38rem] font-semibold">Audit and Assurance</h4>
+                    <p>Financial statement audits give assurance over information used by investors and the capital markets.</p>
+                </a>
+                
+                <a href="#" class="flex flex-col items-center max-w-[22%] laptop:max-w-[45%] mobile:max-w-full gap-5 text-[#313131] py-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5] hover:rounded-[5px]">
+                    <img class="rounded-full w-[240px] mb-[25px] mobile:w-[300px]" src="src/img/beachView.webp" alt="beachView">
+                    <h4 class="text-[1.38rem] font-semibold">Tax</h4>
+                    <p>Taxes must be viewed as a dynamic cost item rather than as a passive charge on profits.</p>
+                </a>
+                
+                <a href="#" class="flex flex-col items-center max-w-[22%] laptop:max-w-[45%] mobile:max-w-full gap-5 text-[#313131] py-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5] hover:rounded-[5px]">
+                    <img class="rounded-full w-[240px] mb-[25px] mobile:w-[300px]" src="src/img/swirls.webp" alt="swirls">
+                    <h4 class="text-[1.38rem] font-semibold">Legal</h4>
+                    <p>Understanding clients' commercial goals is paramount to R&P lawyers. We focus on integrating business strategies with practical legal solutions.</p>
+                </a>
+                
+                <a href="#" class="flex flex-col items-center max-w-[22%] laptop:max-w-[45%] mobile:max-w-full gap-5 text-[#313131] py-[5px] hover:outline hover:outline-1 hover:outline-[#78C1E5] hover:rounded-[5px]">
+                    <img class="rounded-full w-[240px] mobile:w-[300px] mb-[25px]" src="src/img/abstractBoxes.webp" alt="abstractBoxes">
+                    <h4 class="text-[1.38rem] font-semibold">Advisory</h4>
+                    <p>KPMG advisory team works with the world's leading organizations to create and protect the sustinable value of their business.</p>
+                </a>
+
+            </div>
+
+            <a href="#" class="min-w-[240px] text-center text-[#063696] items-center text-[1.15rem] p-[10px] m-[15px] font-semibold border-solid border border-[#063696] transition-all duration-500 hover:text-white hover:bg-[#1E49E2] hover:underline">All Services</a>
+        </section>
+        
+    </main>
+    <footer class="border-t-[10px] border-solid border-[#1E49E2]">
+        <div class="footer-wrapper">
+            <div class="border-b-[1px] border-solid border-[#f6f6f6] laptop:hidden">
+                <div class="w-[95%] mx-auto py-3">
+                    <a class="pr-10 text-xl text-[#666] hover:underline" href="#">Legal</a>
+                    <a class="pr-10 text-xl text-[#666] hover:underline" href="#">Privacy</a>
+                    <a class="pr-10 text-xl text-[#666] hover:underline" href="#">Accessibility</a>
+                    <a class="pr-10 text-xl text-[#666] hover:underline" href="#">Sitemap</a>
+                    <a class="pr-10 text-xl text-[#666] hover:underline" href="#">Help</a>
+                    <a class="pr-10 text-xl text-[#666] hover:underline" href="#">Glossary</a>
+                </div>
+
+            </div>
+
+            <div class="grid grid-rows-[50%_50%] h-[300px] mobile:h-[700px]">
+                <div class="w-[95%] mx-auto grid grid-cols-[85.5%_15.5%] pt-[30px] laptop:hidden">
+                    <div class="grid w-[65%] grid-cols-[30%_30%_30%]">
+                        <ul>
+                            <li class="pb-[14px]"><a href="https://fti.unai.edu/" class="text-[#063696] text-xl">FTI UNAI</a></li>
+                            <li class="pb-[14px]"><a class="text-[#666] text-[1.02em]" href="#">Office location</a></li>
+                            <li class="pb-[14px]"><a class="text-[#666] text-[1.02em]" href="#">Contact us</a></li>
+                        </ul>
+    
+                        <ul>
+                            <li class="pb-[14px]"><a href="https://fti.unai.edu/" class="text-[#063696] text-xl">UNAI</a></li>
+                            <li class="pb-[14px]"><a class="text-[#666] text-[1.02em]" href="#">Press release</a></li>
+                        </ul>
+        
+                        <ul>
+                            <li class="pb-[14px]"><a href="https://jurnal.unai.edu/index.php/teika" class="text-[#063696] text-xl">Jurnal Teika</a></li>
+                            <li class="pb-[14px]"><a class="text-[#666] text-[1.02em]" href="#">Contact alumni</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="grid grid-rows-[50%_50%] items-start justify-center">
+                        <h3 class="text-[#063696] font-semibold font-OpenSans-Condensed text-3xl">Request for proposal</h3>
+                        <a class="text-center p-[12px_55px] bg-[#1E49E2] text-white text-xl font-semibold" href="#">Submit RFP</a>
+                    </div>
+                </div>
+
+                <ul class="hidden laptop:grid grid-cols-[50%_50%] grid-rows-[15%,repeat(13,7.5%)] text-center h-fit mt-10">
+                    <li class="col-span-2 bg-[#1E49E2] text-white font-semibold hover:underline py-8 flex items-center justify-center"><a href="#">Submit RFP <span class="fa-solid fa-chevron-right"></span></a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Legal</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Privacy</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Accessibility</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Sitemap</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Help</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Glossary</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="https://fti.unai.edu/">FTI UNAI</a></li>        
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="https://unai.edu/">UNAI</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="https://jurnal.unai.edu/index.php/teika">Jurnal Teika</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Office location</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Contact us</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Press release</a></li>
+                    <li class="py-4 grid justify-center content-center text-[#00338d] text-[1.125rem] hover:underline border-solid border border-[#f0f0f0]"><a href="#">Contact alumni</a></li>
+                </ul>
+
+                
+            
+                <div class="bg-[#DEDEDE] pt-[30px] h-[90%] mt-[2%] laptop:mt-[28%]">
+                    <div class="w-[95%] mx-auto grid grid-rows-[55%_45%] text-[0.88rem] text-[#333] h-[100%]">
+                        <p>© 2024 Siddharta Widjaja & Rekan – Registered Public Accountants, an Indonesian partnership and a member firm of the KPMG global organization of independent member firms affiliated with KPMG International Limited, a private English company limited by guarantee. All rights reserved.</p>
+                        <p>For more details about the structure of the KPMG global organization please visit <a class="text-[#0a59a3] hover:underline" href="https://kpmg.com/governance">https://kpmg.com/governance</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
